@@ -1,0 +1,54 @@
+</head>
+<body>
+    <input type=hidden name="orgid" value="00DdL000004FwmA">
+<input type=hidden name="retURL" value="http://www.google.com">
+<link rel="stylesheet" href="style.css">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="jeevithaaids@gmail.com">                                         -->
+<!--  --------------------------------------------------------------  -->
+
+
+    <div class="form-container">
+        <h2>Request Service</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="productname">Product Name</label>
+            <input type="text" id="productname" name="productname" placeholder="Name of the product" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" name="description" placeholder="Describe the issue you're facing" required></textarea>
+
+            <label for="caseReason">Case Reason</label>
+            <select id="caseReason" name="caseReason" required>
+                
+            </option>
+            <option value="None">None</option>
+            <option value="Installation">Installation</option>
+            <option value="Equipment Complexity">Equipment Complexity</option>
+            <option value="Performance">Performance</option>
+            <option value="Breakdown">Breakdown</option>
+            <option value="Equipment Design">Equipment Design</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+            </select><br>
+            </select>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+
+</body>
+</html>
